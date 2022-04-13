@@ -26,6 +26,14 @@
 		54D40BB428076FAB00545EC5 /* ProductionCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BA728076FA900545EC5 /* ProductionCountry.swift */; };
 		54D40BB528076FAB00545EC5 /* ProductionCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BAB28076FAA00545EC5 /* ProductionCompany.swift */; };
 		54D40BB628076FAB00545EC5 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BA828076FAA00545EC5 /* MovieResponse.swift */; };
+		54D40BB92807724B00545EC5 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BB82807724B00545EC5 /* UIImageView+.swift */; };
+		54D40BBB2807727D00545EC5 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BBA2807727D00545EC5 /* UIViewController+.swift */; };
+		54D40BC2280772C200545EC5 /* CellConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BBD280772C200545EC5 /* CellConstants.swift */; };
+		54D40BC3280772C200545EC5 /* TabBarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BBE280772C200545EC5 /* TabBarConstants.swift */; };
+		54D40BC4280772C200545EC5 /* NavBarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BBF280772C200545EC5 /* NavBarConstants.swift */; };
+		54D40BC5280772C200545EC5 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC0280772C200545EC5 /* NetworkConstants.swift */; };
+		54D40BC6280772C200545EC5 /* Insets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC1280772C200545EC5 /* Insets.swift */; };
+		54D40BC92807758900545EC5 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC82807758900545EC5 /* TabBarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +57,14 @@
 		54D40BAC28076FAA00545EC5 /* SpokenLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokenLanguage.swift; sourceTree = "<group>"; };
 		54D40BAD28076FAB00545EC5 /* BelongsToCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelongsToCollection.swift; sourceTree = "<group>"; };
 		54D40BAE28076FAB00545EC5 /* MovieDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailResponse.swift; sourceTree = "<group>"; };
+		54D40BB82807724B00545EC5 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		54D40BBA2807727D00545EC5 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		54D40BBD280772C200545EC5 /* CellConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellConstants.swift; sourceTree = "<group>"; };
+		54D40BBE280772C200545EC5 /* TabBarConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarConstants.swift; sourceTree = "<group>"; };
+		54D40BBF280772C200545EC5 /* NavBarConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarConstants.swift; sourceTree = "<group>"; };
+		54D40BC0280772C200545EC5 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		54D40BC1280772C200545EC5 /* Insets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insets.swift; sourceTree = "<group>"; };
+		54D40BC82807758900545EC5 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +98,10 @@
 		54D40B792807600500545EC5 /* Films_Viper */ = {
 			isa = PBXGroup;
 			children = (
-				54D40B9D28076D0600545EC5 /* Networking */,
 				54D40B8E2807607400545EC5 /* AppFiles */,
-				54D40B9A28076C2D00545EC5 /* Extensions */,
+				54D40BC7280773CE00545EC5 /* Coordinators */,
+				54D40B9D28076D0600545EC5 /* Networking */,
+				54D40B9A28076C2D00545EC5 /* Helpers */,
 				54D40B93280765AD00545EC5 /* Fonts */,
 			);
 			path = Films_Viper;
@@ -112,12 +129,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		54D40B9A28076C2D00545EC5 /* Extensions */ = {
+		54D40B9A28076C2D00545EC5 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				54D40BBC280772B300545EC5 /* Constants */,
 				54D40B9B28076C3900545EC5 /* UIColor+.swift */,
+				54D40BB82807724B00545EC5 /* UIImageView+.swift */,
+				54D40BBA2807727D00545EC5 /* UIViewController+.swift */,
 			);
-			path = Extensions;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		54D40B9D28076D0600545EC5 /* Networking */ = {
@@ -143,6 +163,34 @@
 				54D40BAC28076FAA00545EC5 /* SpokenLanguage.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		54D40BBC280772B300545EC5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BBD280772C200545EC5 /* CellConstants.swift */,
+				54D40BC1280772C200545EC5 /* Insets.swift */,
+				54D40BBF280772C200545EC5 /* NavBarConstants.swift */,
+				54D40BC0280772C200545EC5 /* NetworkConstants.swift */,
+				54D40BBE280772C200545EC5 /* TabBarConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		54D40BC7280773CE00545EC5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BCA280775AA00545EC5 /* TabBarCoordinator */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		54D40BCA280775AA00545EC5 /* TabBarCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BC82807758900545EC5 /* TabBarCoordinator.swift */,
+			);
+			path = TabBarCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,14 +275,22 @@
 			files = (
 				54D40BB628076FAB00545EC5 /* MovieResponse.swift in Sources */,
 				54D40B7B2807600500545EC5 /* AppDelegate.swift in Sources */,
+				54D40BBB2807727D00545EC5 /* UIViewController+.swift in Sources */,
+				54D40BC4280772C200545EC5 /* NavBarConstants.swift in Sources */,
+				54D40BB92807724B00545EC5 /* UIImageView+.swift in Sources */,
+				54D40BC6280772C200545EC5 /* Insets.swift in Sources */,
 				54D40B7D2807600500545EC5 /* SceneDelegate.swift in Sources */,
 				54D40BB028076FAB00545EC5 /* MoviesPageResponse.swift in Sources */,
 				54D40BB328076FAB00545EC5 /* BelongsToCollection.swift in Sources */,
 				54D40BB128076FAB00545EC5 /* SpokenLanguage.swift in Sources */,
 				54D40B9F28076D2700545EC5 /* MovieTarget.swift in Sources */,
+				54D40BC5280772C200545EC5 /* NetworkConstants.swift in Sources */,
 				54D40BB228076FAB00545EC5 /* MovieDetailResponse.swift in Sources */,
 				54D40BAF28076FAB00545EC5 /* Genre.swift in Sources */,
+				54D40BC2280772C200545EC5 /* CellConstants.swift in Sources */,
 				54D40BB528076FAB00545EC5 /* ProductionCompany.swift in Sources */,
+				54D40BC3280772C200545EC5 /* TabBarConstants.swift in Sources */,
+				54D40BC92807758900545EC5 /* TabBarCoordinator.swift in Sources */,
 				54D40B9C28076C3900545EC5 /* UIColor+.swift in Sources */,
 				54D40BA428076F3D00545EC5 /* MovieService.swift in Sources */,
 				54D40BB428076FAB00545EC5 /* ProductionCountry.swift in Sources */,
@@ -380,7 +436,6 @@
 				INFOPLIST_FILE = Films_Viper/AppFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -407,7 +462,6 @@
 				INFOPLIST_FILE = Films_Viper/AppFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
