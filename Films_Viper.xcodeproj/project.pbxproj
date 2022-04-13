@@ -34,6 +34,11 @@
 		54D40BC5280772C200545EC5 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC0280772C200545EC5 /* NetworkConstants.swift */; };
 		54D40BC6280772C200545EC5 /* Insets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC1280772C200545EC5 /* Insets.swift */; };
 		54D40BC92807758900545EC5 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC82807758900545EC5 /* TabBarCoordinator.swift */; };
+		54D40BD528077E0D00545EC5 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BD428077E0D00545EC5 /* LoadingIndicator.swift */; };
+		54D40BD728077E4300545EC5 /* LoadingDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BD628077E4300545EC5 /* LoadingDisplayable.swift */; };
+		54D40BD9280780CA00545EC5 /* HomeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BD8280780CA00545EC5 /* HomeInteractorProtocol.swift */; };
+		54D40BDB280781E100545EC5 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BDA280781E100545EC5 /* HomeInteractor.swift */; };
+		54D40BDD280784CA00545EC5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BDC280784CA00545EC5 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +70,11 @@
 		54D40BC0280772C200545EC5 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		54D40BC1280772C200545EC5 /* Insets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insets.swift; sourceTree = "<group>"; };
 		54D40BC82807758900545EC5 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		54D40BD428077E0D00545EC5 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		54D40BD628077E4300545EC5 /* LoadingDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDisplayable.swift; sourceTree = "<group>"; };
+		54D40BD8280780CA00545EC5 /* HomeInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorProtocol.swift; sourceTree = "<group>"; };
+		54D40BDA280781E100545EC5 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		54D40BDC280784CA00545EC5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,8 @@
 		54D40B792807600500545EC5 /* Films_Viper */ = {
 			isa = PBXGroup;
 			children = (
+				54D40BD228077DBF00545EC5 /* Views */,
+				54D40BCB28077D0700545EC5 /* Screens */,
 				54D40B8E2807607400545EC5 /* AppFiles */,
 				54D40BC7280773CE00545EC5 /* Coordinators */,
 				54D40B9D28076D0600545EC5 /* Networking */,
@@ -193,6 +205,73 @@
 			path = TabBarCoordinator;
 			sourceTree = "<group>";
 		};
+		54D40BCB28077D0700545EC5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BCC28077D1900545EC5 /* HomeScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		54D40BCC28077D1900545EC5 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BCD28077D3300545EC5 /* Assembly */,
+				54D40BD028077D5200545EC5 /* Interactor */,
+				54D40BCF28077D4900545EC5 /* Presenter */,
+				54D40BCE28077D4100545EC5 /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		54D40BCD28077D3300545EC5 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		54D40BCE28077D4100545EC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BDC280784CA00545EC5 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54D40BCF28077D4900545EC5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		54D40BD028077D5200545EC5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BD8280780CA00545EC5 /* HomeInteractorProtocol.swift */,
+				54D40BDA280781E100545EC5 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		54D40BD228077DBF00545EC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BD328077DCB00545EC5 /* LoadingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54D40BD328077DCB00545EC5 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BD428077E0D00545EC5 /* LoadingIndicator.swift */,
+				54D40BD628077E4300545EC5 /* LoadingDisplayable.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -273,17 +352,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D40BD728077E4300545EC5 /* LoadingDisplayable.swift in Sources */,
+				54D40BD528077E0D00545EC5 /* LoadingIndicator.swift in Sources */,
 				54D40BB628076FAB00545EC5 /* MovieResponse.swift in Sources */,
 				54D40B7B2807600500545EC5 /* AppDelegate.swift in Sources */,
 				54D40BBB2807727D00545EC5 /* UIViewController+.swift in Sources */,
 				54D40BC4280772C200545EC5 /* NavBarConstants.swift in Sources */,
 				54D40BB92807724B00545EC5 /* UIImageView+.swift in Sources */,
 				54D40BC6280772C200545EC5 /* Insets.swift in Sources */,
+				54D40BDB280781E100545EC5 /* HomeInteractor.swift in Sources */,
 				54D40B7D2807600500545EC5 /* SceneDelegate.swift in Sources */,
 				54D40BB028076FAB00545EC5 /* MoviesPageResponse.swift in Sources */,
 				54D40BB328076FAB00545EC5 /* BelongsToCollection.swift in Sources */,
 				54D40BB128076FAB00545EC5 /* SpokenLanguage.swift in Sources */,
 				54D40B9F28076D2700545EC5 /* MovieTarget.swift in Sources */,
+				54D40BD9280780CA00545EC5 /* HomeInteractorProtocol.swift in Sources */,
+				54D40BDD280784CA00545EC5 /* HomeView.swift in Sources */,
 				54D40BC5280772C200545EC5 /* NetworkConstants.swift in Sources */,
 				54D40BB228076FAB00545EC5 /* MovieDetailResponse.swift in Sources */,
 				54D40BAF28076FAB00545EC5 /* Genre.swift in Sources */,
