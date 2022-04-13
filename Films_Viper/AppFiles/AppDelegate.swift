@@ -13,7 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupNavBarAppearance()
+        setupTabBarAppearance()
+        
         return true
     }
 
@@ -33,4 +35,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+// MARK: Setup appearance
+
+private extension AppDelegate {
+    
+    func setupTabBarAppearance() {
+        if #available(iOS 15, *) {
+            let appearance = UITabBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = .tabBarBackground
+            UITabBar.appearance().standardAppearance = appearance
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+            
+        }
+    }
+        
+    func setupNavBarAppearance() {
+        if #available(iOS 15, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = .background
+            UINavigationBar.appearance().standardAppearance = appearance
+            UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        }
+    }
+    
+}
+
 

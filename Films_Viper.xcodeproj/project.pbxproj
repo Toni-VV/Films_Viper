@@ -9,21 +9,46 @@
 /* Begin PBXBuildFile section */
 		54D40B7B2807600500545EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40B7A2807600500545EC5 /* AppDelegate.swift */; };
 		54D40B7D2807600500545EC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40B7C2807600500545EC5 /* SceneDelegate.swift */; };
-		54D40B7F2807600500545EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40B7E2807600500545EC5 /* ViewController.swift */; };
-		54D40B822807600500545EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D40B802807600500545EC5 /* Main.storyboard */; };
 		54D40B842807600A00545EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D40B832807600A00545EC5 /* Assets.xcassets */; };
 		54D40B872807600A00545EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D40B852807600A00545EC5 /* LaunchScreen.storyboard */; };
+		54D40B97280765BE00545EC5 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54D40B94280765BE00545EC5 /* Raleway-Regular.ttf */; };
+		54D40B98280765BE00545EC5 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54D40B95280765BE00545EC5 /* Raleway-Bold.ttf */; };
+		54D40B99280765BE00545EC5 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54D40B96280765BE00545EC5 /* Raleway-SemiBold.ttf */; };
+		54D40B9C28076C3900545EC5 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40B9B28076C3900545EC5 /* UIColor+.swift */; };
+		54D40B9F28076D2700545EC5 /* MovieTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40B9E28076D2700545EC5 /* MovieTarget.swift */; };
+		54D40BA228076DD700545EC5 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 54D40BA128076DD700545EC5 /* Moya */; };
+		54D40BA428076F3D00545EC5 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BA328076F3D00545EC5 /* MovieService.swift */; };
+		54D40BAF28076FAB00545EC5 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BA928076FAA00545EC5 /* Genre.swift */; };
+		54D40BB028076FAB00545EC5 /* MoviesPageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BAA28076FAA00545EC5 /* MoviesPageResponse.swift */; };
+		54D40BB128076FAB00545EC5 /* SpokenLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BAC28076FAA00545EC5 /* SpokenLanguage.swift */; };
+		54D40BB228076FAB00545EC5 /* MovieDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BAE28076FAB00545EC5 /* MovieDetailResponse.swift */; };
+		54D40BB328076FAB00545EC5 /* BelongsToCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BAD28076FAB00545EC5 /* BelongsToCollection.swift */; };
+		54D40BB428076FAB00545EC5 /* ProductionCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BA728076FA900545EC5 /* ProductionCountry.swift */; };
+		54D40BB528076FAB00545EC5 /* ProductionCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BAB28076FAA00545EC5 /* ProductionCompany.swift */; };
+		54D40BB628076FAB00545EC5 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BA828076FAA00545EC5 /* MovieResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54D40B772807600500545EC5 /* Films_Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Films_Viper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D40B7A2807600500545EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54D40B7C2807600500545EC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54D40B7E2807600500545EC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54D40B812807600500545EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54D40B832807600A00545EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54D40B862807600A00545EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54D40B882807600A00545EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D40B94280765BE00545EC5 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		54D40B95280765BE00545EC5 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		54D40B96280765BE00545EC5 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		54D40B9B28076C3900545EC5 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		54D40B9E28076D2700545EC5 /* MovieTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTarget.swift; sourceTree = "<group>"; };
+		54D40BA328076F3D00545EC5 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		54D40BA728076FA900545EC5 /* ProductionCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCountry.swift; sourceTree = "<group>"; };
+		54D40BA828076FAA00545EC5 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		54D40BA928076FAA00545EC5 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		54D40BAA28076FAA00545EC5 /* MoviesPageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPageResponse.swift; sourceTree = "<group>"; };
+		54D40BAB28076FAA00545EC5 /* ProductionCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCompany.swift; sourceTree = "<group>"; };
+		54D40BAC28076FAA00545EC5 /* SpokenLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokenLanguage.swift; sourceTree = "<group>"; };
+		54D40BAD28076FAB00545EC5 /* BelongsToCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelongsToCollection.swift; sourceTree = "<group>"; };
+		54D40BAE28076FAB00545EC5 /* MovieDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D40BA228076DD700545EC5 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,67 @@
 		54D40B792807600500545EC5 /* Films_Viper */ = {
 			isa = PBXGroup;
 			children = (
+				54D40B9D28076D0600545EC5 /* Networking */,
+				54D40B8E2807607400545EC5 /* AppFiles */,
+				54D40B9A28076C2D00545EC5 /* Extensions */,
+				54D40B93280765AD00545EC5 /* Fonts */,
+			);
+			path = Films_Viper;
+			sourceTree = "<group>";
+		};
+		54D40B8E2807607400545EC5 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
 				54D40B7A2807600500545EC5 /* AppDelegate.swift */,
 				54D40B7C2807600500545EC5 /* SceneDelegate.swift */,
-				54D40B7E2807600500545EC5 /* ViewController.swift */,
-				54D40B802807600500545EC5 /* Main.storyboard */,
 				54D40B832807600A00545EC5 /* Assets.xcassets */,
 				54D40B852807600A00545EC5 /* LaunchScreen.storyboard */,
 				54D40B882807600A00545EC5 /* Info.plist */,
 			);
-			path = Films_Viper;
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		54D40B93280765AD00545EC5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				54D40B95280765BE00545EC5 /* Raleway-Bold.ttf */,
+				54D40B94280765BE00545EC5 /* Raleway-Regular.ttf */,
+				54D40B96280765BE00545EC5 /* Raleway-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		54D40B9A28076C2D00545EC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54D40B9B28076C3900545EC5 /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		54D40B9D28076D0600545EC5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				54D40B9E28076D2700545EC5 /* MovieTarget.swift */,
+				54D40BA328076F3D00545EC5 /* MovieService.swift */,
+				54D40BB728076FB800545EC5 /* Model */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		54D40BB728076FB800545EC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54D40BAD28076FAB00545EC5 /* BelongsToCollection.swift */,
+				54D40BA928076FAA00545EC5 /* Genre.swift */,
+				54D40BAE28076FAB00545EC5 /* MovieDetailResponse.swift */,
+				54D40BA828076FAA00545EC5 /* MovieResponse.swift */,
+				54D40BAA28076FAA00545EC5 /* MoviesPageResponse.swift */,
+				54D40BAB28076FAA00545EC5 /* ProductionCompany.swift */,
+				54D40BA728076FA900545EC5 /* ProductionCountry.swift */,
+				54D40BAC28076FAA00545EC5 /* SpokenLanguage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +161,9 @@
 			dependencies = (
 			);
 			name = Films_Viper;
+			packageProductDependencies = (
+				54D40BA128076DD700545EC5 /* Moya */,
+			);
 			productName = Films_Viper;
 			productReference = 54D40B772807600500545EC5 /* Films_Viper.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,10 @@
 				Base,
 			);
 			mainGroup = 54D40B6E2807600500545EC5;
+			packageReferences = (
+				54D40B8F2807610000545EC5 /* XCRemoteSwiftPackageReference "Moya" */,
+				54D40BA028076DD700545EC5 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 54D40B782807600500545EC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D40B872807600A00545EC5 /* LaunchScreen.storyboard in Resources */,
+				54D40B97280765BE00545EC5 /* Raleway-Regular.ttf in Resources */,
 				54D40B842807600A00545EC5 /* Assets.xcassets in Resources */,
-				54D40B822807600500545EC5 /* Main.storyboard in Resources */,
+				54D40B98280765BE00545EC5 /* Raleway-Bold.ttf in Resources */,
+				54D40B99280765BE00545EC5 /* Raleway-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54D40B7F2807600500545EC5 /* ViewController.swift in Sources */,
+				54D40BB628076FAB00545EC5 /* MovieResponse.swift in Sources */,
 				54D40B7B2807600500545EC5 /* AppDelegate.swift in Sources */,
 				54D40B7D2807600500545EC5 /* SceneDelegate.swift in Sources */,
+				54D40BB028076FAB00545EC5 /* MoviesPageResponse.swift in Sources */,
+				54D40BB328076FAB00545EC5 /* BelongsToCollection.swift in Sources */,
+				54D40BB128076FAB00545EC5 /* SpokenLanguage.swift in Sources */,
+				54D40B9F28076D2700545EC5 /* MovieTarget.swift in Sources */,
+				54D40BB228076FAB00545EC5 /* MovieDetailResponse.swift in Sources */,
+				54D40BAF28076FAB00545EC5 /* Genre.swift in Sources */,
+				54D40BB528076FAB00545EC5 /* ProductionCompany.swift in Sources */,
+				54D40B9C28076C3900545EC5 /* UIColor+.swift in Sources */,
+				54D40BA428076F3D00545EC5 /* MovieService.swift in Sources */,
+				54D40BB428076FAB00545EC5 /* ProductionCountry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		54D40B802807600500545EC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54D40B812807600500545EC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54D40B852807600A00545EC5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Films_Viper/Info.plist;
+				INFOPLIST_FILE = Films_Viper/AppFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +404,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Films_Viper/Info.plist;
+				INFOPLIST_FILE = Films_Viper/AppFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -356,6 +445,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54D40B8F2807610000545EC5 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		54D40BA028076DD700545EC5 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54D40BA128076DD700545EC5 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54D40BA028076DD700545EC5 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54D40B6F2807600500545EC5 /* Project object */;
 }
