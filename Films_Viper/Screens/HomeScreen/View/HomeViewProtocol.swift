@@ -7,10 +7,17 @@
 
 import UIKit
 
-protocol HomeViewInput {
+protocol HomeViewInput: AnyObject {
+    
+    func configureViews(with movies: [MovieCell.Model])
+    func setLoaderVisible(_ isVisible: Bool)
     
 }
 
 protocol HomeViewOutput {
+    
+    func didStartScrolling(scrollDirection: MovieView.ScrollDirection)
+    func didFinishLoadingScreen()
+    func didSelectMovie(movieId: Int)
     
 }

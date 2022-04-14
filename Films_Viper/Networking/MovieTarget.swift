@@ -19,7 +19,7 @@ extension MovieTarget: TargetType {
     var apiKey: String {
         "3707d5542daf3c8ccf5e7078afc3821e"
     }
-    
+
     var baseURL: URL {
         guard let url = URL(string: "https://api.themoviedb.org/3/movie/") else {
             fatalError()

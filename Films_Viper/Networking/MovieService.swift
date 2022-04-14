@@ -30,11 +30,14 @@ extension MovieService: MovieServiceProtocol {
     
     func getPopularMovies(page: Int,
                           completion: @escaping (Result<MoviesPageResponse, Error>) -> Void) {
+        
         provider.request(.popularMovie(page: page)) { result in
             switch result {
             case let .success(response):
                 do {
+                    print(response.statusCode)
                     let result = try response.map(MoviesPageResponse.self)
+                
                     completion(.success(result))
                 } catch {
                     completion(.failure(error))

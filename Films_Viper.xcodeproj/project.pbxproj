@@ -33,7 +33,6 @@
 		54D40BC4280772C200545EC5 /* NavBarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BBF280772C200545EC5 /* NavBarConstants.swift */; };
 		54D40BC5280772C200545EC5 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC0280772C200545EC5 /* NetworkConstants.swift */; };
 		54D40BC6280772C200545EC5 /* Insets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC1280772C200545EC5 /* Insets.swift */; };
-		54D40BC92807758900545EC5 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BC82807758900545EC5 /* TabBarCoordinator.swift */; };
 		54D40BD528077E0D00545EC5 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BD428077E0D00545EC5 /* LoadingIndicator.swift */; };
 		54D40BD728077E4300545EC5 /* LoadingDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BD628077E4300545EC5 /* LoadingDisplayable.swift */; };
 		54D40BD9280780CA00545EC5 /* HomeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BD8280780CA00545EC5 /* HomeInteractorProtocol.swift */; };
@@ -48,7 +47,10 @@
 		54D40BED2808049B00545EC5 /* HeightProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BEC2808049B00545EC5 /* HeightProvider.swift */; };
 		54D40BF12808168100545EC5 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BF02808168100545EC5 /* ThumbnailView.swift */; };
 		54D40BF32808186000545EC5 /* ImageHeightProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BF22808186000545EC5 /* ImageHeightProvider.swift */; };
-		54D40BF6280818C800545EC5 /* TabBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BF5280818C800545EC5 /* TabBarProtocol.swift */; };
+		54D40BF8280820F300545EC5 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40BF7280820F300545EC5 /* HomeAssembly.swift */; };
+		54D40C012808266C00545EC5 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40C002808266C00545EC5 /* TabBarCoordinator.swift */; };
+		54D40C032808269500545EC5 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40C022808269500545EC5 /* CoordinatorProtocol.swift */; };
+		54D40C062808296E00545EC5 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D40C052808296E00545EC5 /* HomeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,7 +81,6 @@
 		54D40BBF280772C200545EC5 /* NavBarConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarConstants.swift; sourceTree = "<group>"; };
 		54D40BC0280772C200545EC5 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		54D40BC1280772C200545EC5 /* Insets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insets.swift; sourceTree = "<group>"; };
-		54D40BC82807758900545EC5 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		54D40BD428077E0D00545EC5 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		54D40BD628077E4300545EC5 /* LoadingDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDisplayable.swift; sourceTree = "<group>"; };
 		54D40BD8280780CA00545EC5 /* HomeInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorProtocol.swift; sourceTree = "<group>"; };
@@ -94,7 +95,10 @@
 		54D40BEC2808049B00545EC5 /* HeightProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightProvider.swift; sourceTree = "<group>"; };
 		54D40BF02808168100545EC5 /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
 		54D40BF22808186000545EC5 /* ImageHeightProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHeightProvider.swift; sourceTree = "<group>"; };
-		54D40BF5280818C800545EC5 /* TabBarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProtocol.swift; sourceTree = "<group>"; };
+		54D40BF7280820F300545EC5 /* HomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
+		54D40C002808266C00545EC5 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		54D40C022808269500545EC5 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		54D40C052808296E00545EC5 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +132,8 @@
 		54D40B792807600500545EC5 /* Films_Viper */ = {
 			isa = PBXGroup;
 			children = (
+				54D40BFF280825FD00545EC5 /* Coordinators */,
 				54D40B8E2807607400545EC5 /* AppFiles */,
-				54D40BC7280773CE00545EC5 /* Coordinators */,
 				54D40BD228077DBF00545EC5 /* Views */,
 				54D40BCB28077D0700545EC5 /* Screens */,
 				54D40B9D28076D0600545EC5 /* Networking */,
@@ -209,23 +213,6 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		54D40BC7280773CE00545EC5 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				54D40BCA280775AA00545EC5 /* TabBarCoordinator */,
-			);
-			path = Coordinators;
-			sourceTree = "<group>";
-		};
-		54D40BCA280775AA00545EC5 /* TabBarCoordinator */ = {
-			isa = PBXGroup;
-			children = (
-				54D40BF4280818A900545EC5 /* TabBarProtocol */,
-				54D40BC82807758900545EC5 /* TabBarCoordinator.swift */,
-			);
-			path = TabBarCoordinator;
-			sourceTree = "<group>";
-		};
 		54D40BCB28077D0700545EC5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +235,7 @@
 		54D40BCD28077D3300545EC5 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
+				54D40BF7280820F300545EC5 /* HomeAssembly.swift */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -334,12 +322,22 @@
 			path = ThumbnailView;
 			sourceTree = "<group>";
 		};
-		54D40BF4280818A900545EC5 /* TabBarProtocol */ = {
+		54D40BFF280825FD00545EC5 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				54D40BF5280818C800545EC5 /* TabBarProtocol.swift */,
+				54D40C042808296300545EC5 /* HomeCoordinator */,
+				54D40C002808266C00545EC5 /* TabBarCoordinator.swift */,
+				54D40C022808269500545EC5 /* CoordinatorProtocol.swift */,
 			);
-			path = TabBarProtocol;
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		54D40C042808296300545EC5 /* HomeCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				54D40C052808296E00545EC5 /* HomeCoordinator.swift */,
+			);
+			path = HomeCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D40BD728077E4300545EC5 /* LoadingDisplayable.swift in Sources */,
+				54D40BF8280820F300545EC5 /* HomeAssembly.swift in Sources */,
 				54D40BD528077E0D00545EC5 /* LoadingIndicator.swift in Sources */,
 				54D40BB628076FAB00545EC5 /* MovieResponse.swift in Sources */,
 				54D40BE8280803D000545EC5 /* HomePresenter.swift in Sources */,
@@ -435,6 +434,7 @@
 				54D40BDF2808006600545EC5 /* HomeViewProtocol.swift in Sources */,
 				54D40BF12808168100545EC5 /* ThumbnailView.swift in Sources */,
 				54D40BC6280772C200545EC5 /* Insets.swift in Sources */,
+				54D40C012808266C00545EC5 /* TabBarCoordinator.swift in Sources */,
 				54D40BDB280781E100545EC5 /* HomeInteractor.swift in Sources */,
 				54D40BF32808186000545EC5 /* ImageHeightProvider.swift in Sources */,
 				54D40B7D2807600500545EC5 /* SceneDelegate.swift in Sources */,
@@ -443,6 +443,7 @@
 				54D40BB328076FAB00545EC5 /* BelongsToCollection.swift in Sources */,
 				54D40BB128076FAB00545EC5 /* SpokenLanguage.swift in Sources */,
 				54D40BE42808013C00545EC5 /* MovieCell.swift in Sources */,
+				54D40C032808269500545EC5 /* CoordinatorProtocol.swift in Sources */,
 				54D40B9F28076D2700545EC5 /* MovieTarget.swift in Sources */,
 				54D40BE6280803BD00545EC5 /* HomeModuleOutput.swift in Sources */,
 				54D40BD9280780CA00545EC5 /* HomeInteractorProtocol.swift in Sources */,
@@ -453,11 +454,10 @@
 				54D40BC2280772C200545EC5 /* CellConstants.swift in Sources */,
 				54D40BB528076FAB00545EC5 /* ProductionCompany.swift in Sources */,
 				54D40BC3280772C200545EC5 /* TabBarConstants.swift in Sources */,
-				54D40BC92807758900545EC5 /* TabBarCoordinator.swift in Sources */,
 				54D40B9C28076C3900545EC5 /* UIColor+.swift in Sources */,
-				54D40BF6280818C800545EC5 /* TabBarProtocol.swift in Sources */,
 				54D40BA428076F3D00545EC5 /* MovieService.swift in Sources */,
 				54D40BB428076FAB00545EC5 /* ProductionCountry.swift in Sources */,
+				54D40C062808296E00545EC5 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

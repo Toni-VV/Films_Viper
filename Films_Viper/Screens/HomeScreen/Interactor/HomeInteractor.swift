@@ -19,6 +19,7 @@ struct HomeInteractor {
 
 extension HomeInteractor: HomeInteractorProtocol {
     
+    
     func obtainPopularMovies(page: Int,
                              completion: @escaping (Result<MoviesPageResponse, Error>) -> Void) {
         movieService.getPopularMovies(page: page) { result in
