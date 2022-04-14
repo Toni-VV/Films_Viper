@@ -31,7 +31,7 @@ class MovieCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK: - Public dunctions
+    // MARK: - Public 
     
     func configure(model: MovieCell.Model) {
         posterImageView.load(from: "\(NetworkConstants.baseImagePath)\(model.posterPath)")

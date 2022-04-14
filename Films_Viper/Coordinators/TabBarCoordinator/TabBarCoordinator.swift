@@ -7,27 +7,6 @@
 
 import UIKit
 
-// MARK: - Protocols
-
-protocol TabCoordinatorProtocol {
-    
-    var childControllers: [TabScreenCoordinatorProtocol] { get }
-    
-    init(tabBarController: UITabBarController)
-    
-    func start() -> UITabBarController
-    
-}
-
-protocol TabScreenCoordinatorProtocol {
-    
-    var navigationController: UINavigationController { get }
-    
-    func makeNavController() -> UINavigationController
-}
-
-// MARK: - TabBarCoordinator
-
 final class TabBarCoordinator: TabCoordinatorProtocol {
     
     var childControllers: [TabScreenCoordinatorProtocol] = []
